@@ -1,0 +1,14 @@
+{
+    "name"         : "node-red-contrib-johnty",
+    "version"      : "0.0.1",
+    "description"  : "A sample node for node-red",
+    "dependencies": {
+        "i2c-lcd"  : "1.0.*"
+    },
+    "keywords": [ "node-red" ],
+    "node-red"     : {
+        "nodes": {
+            "johnty": "johnty.js"
+        }
+    }
+}
